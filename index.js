@@ -33,3 +33,9 @@ if(randomNumer1 > randomNumer2){
     console.log("empate");
     document.querySelector("h1").innerHTML = "Empate";
 }
+
+// BOON PARTA REFRESCAR LA PAGINA
+let refrescar = document.getElementById('refresca');
+refrescar.addEventListener('click', _ => {
+            location.reload();
+})
